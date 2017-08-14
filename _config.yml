@@ -1,7 +1,7 @@
 # Site settings
 title: Sonora Data
 email: jonny@sonoradata.com
-url: http://sonoradata.com
+url: http://sonoradata.github.io
 description: "BLE hyperlocal network in Tempe, AZ"
 
 # Color settings (hex-codes without the leading hash-tag)
