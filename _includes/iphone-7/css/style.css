@@ -1,0 +1,65 @@
+.body {
+  width: 400px;
+  height: 760px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+}
+
+.screen {
+  border: 1px solid black;
+  height: 600px;
+  width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  background-image: url("http://i-cdn.phonearena.com/images/articles/244968-image/ios-10-full-resolution-lock-screen-shortcut-screenshot-1.PNG.jpg");
+  background-size: 355px 600px;
+}
+
+.speaker-grill {
+  border: 1px solid black;
+  border-radius: 40px;
+  height: 7px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35px;
+  background-color: #2E2E2E;
+}
+
+.front-camera {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  float: left;
+  margin-top: -40px;
+  margin-left: 105px;
+  background-color: #344994;
+}
+
+.home-button {
+  height: 55px;
+  width: 55px;
+  border-style: solid;
+  border-color: #6A6A6A;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 640px;
+}
+
+.sensor {
+   border: 1px solid black;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  float: left;
+  margin-top: -60px;
+  margin-left: 170px;
+  background-color: #262626;
+}
+
