@@ -528,7 +528,8 @@ img.img-center {
   color: white;
 }
 
-.get-start-img {
+.get-start-img,
+.center-img {
   display: block;
   margin: auto;
 }
@@ -541,6 +542,6 @@ img.img-center {
   #bus-stop {
     display: block;
     margin: auto;
-    float: none;
+    float: none !important;
   }
 }
