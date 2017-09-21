@@ -13,12 +13,17 @@ body {
     /*font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     color: #000;
     text-align: left;
-    background-color: {{ site.color.primary-dark }};
+    /*background-color: {{ site.color.primary-dark }};*/
+    background-color: white;
 }
 
 html {
     width: 100%;
     height: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1,
@@ -39,6 +44,10 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 @media(min-width:767px) {
@@ -149,7 +158,7 @@ a:focus {
     color: #fff;
     /*background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;*/
 
-    background-image: radial-gradient(50% 155%, #34DEEE 50%, #18C4D4 100%);
+    /*background-image: radial-gradient(50% 155%, #34DEEE 50%, #18C4D4 100%);*/
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -268,7 +277,8 @@ a:focus {
     padding: 50px 0;
     color: #000;
     /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background-color: {{ site.color.primary-dark }};
+    /*background-color: {{ site.color.primary-dark }};*/
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -383,6 +393,7 @@ body {
 
 .subheader {
   text-align: left;
+  padding-top:35px;
 }
 
 .flatcity {
@@ -433,8 +444,7 @@ body {
 
 #beaconmap {
   max-width: 90%;
-  display: block;
-  margin: auto;
+
 }
 
 .beta-signup {
@@ -459,4 +469,78 @@ img.screen {
 
 #real-life-interaction {
   margin-top: 200px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.one-liner p{
+  font-size: 3.75em;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+
+.btn {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  text-transform: none;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 2em;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#get-started-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+img.img-center {
+  display: block;
+  margin: auto;
+}
+
+.automation-header h1 {
+  margin-bottom: 5px;
+}
+
+
+#get-started {
+  padding-top: 100px;
+}
+
+.steps {
+  margin-top: 40px;
+}
+
+.top-nav-collapse a {
+  color: white;
+}
+
+.get-start-img {
+  display: block;
+  margin: auto;
+}
+
+#get-started h2 {
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  #bus-stop {
+    display: block;
+    margin: auto;
+    float: none;
+  }
 }

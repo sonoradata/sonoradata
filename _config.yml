@@ -6,7 +6,7 @@ description: "BLE hyperlocal network in Tempe, AZ"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#fff'
+  primary-dark: '#19B5FE'
   links: '#219ab3'
 
 # Footer settings
