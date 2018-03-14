@@ -1,0 +1,59 @@
+nav, #head {
+  color: white;
+}
+
+section {
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  color: white;
+  background-color: #343a40;
+}
+
+.title {
+  text-align: center;
+}
+
+.feature-icon {
+  max-width: 75%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 7.5em;
+  color: #04A7F7;
+  line-height: 2em;
+}
+
+#head, #get-started, footer {
+  text-align: center;
+}
+
+#learn-more {
+  margin-top: 15%
+}
+
+
+.img-size {
+  max-width: 100%;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img/background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

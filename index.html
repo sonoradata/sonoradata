@@ -1,49 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113325146-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113325146-1');
+    </script>
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <title>SpotSense</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>SpotSense - Location awareness made simple</title>
 </head>
+
 <body>
+  <div class="bg">
+      <nav class="navbar" >
+        <a class="navbar-brand" href="#">
+          <div class="col-md-2 offset-md-2">
+            <img src="img/logo.png" height="40" alt="">
+          </div>
+        </a>
+      </nav>
 
-<style>
-    .container-fluid {
-        padding-top: 15%
-    }
+        <section id="head">
+          <h1 class="title">Location Awareness made simple.</h1>
+          <h4 class="title">SpotSense helps you build real-world experiences for your app users</h4>
+          <button id="learn-more" type="button" class="btn btn-info">Learn More</button>
+        </section>
 
-    .description {
-        padding-top: 20px
-    }
+  </div>
 
-    img {
-        max-width: 100%
-    }
+  <div class="container-fluid">
+    <div class="col-md-10 offset-md-1">
+        <section id="features">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="feature-icon">
+                <img src="img/LOGO-alone.png">
+              </div>
+              <h3>Interact</h3>
+              <h5>Engage your users where they are</h5>
+              <p> Create a more in-depth user experience by connecting your application to real-world places. </p>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-icon">
+                <i class="far fa-chart-bar"></i>
+              </div>
+              <h3>Analyze</h3>
+              <h5>Understand user reactions</h5>
+              <p>Know whether or not your proximity campaign is working with comprehensive analytics.</p>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-icon">
+                <i class="fas fa-redo-alt"></i>
+              </div>
+              <h3>Iterate</h3>
+              <h5>Manage, view and create</h5>
+              <p>Campaign not catching hold? Easily edit your rules on the SpotSense developer dashboard.</p>
+            </div>
+          </div>
+        </section>
 
-    .line {
-        width: 33%
-    }
-</style>
 
-<div class="container-fluid">
-    <div class="col-sm-8 offset-sm-2">
-        <img src="img/logo.png">
-        <hr class="line">
+        <section id="get-started">
+          <h2 class="title">Get Started with SpotSense</h2>
+          <div class="col-md-4 offset-md-4">
+            <img src="img/ios-logo.png" class="img-size">
+            <h5>SpotSense iOS SDK</h5>
 
-        <div class="description">
-            <p>
-                <h5>Location awareness made simple</h5>
-            </p>
-            <p>
-                SpotSense is a platform that enables mobile devices to determine their location both indoors and outdoors using unique wireless signal fingerprints
-            </p>
-        </div>
+          </div>
+        </section>
 
-    </div>
-</div>
+      </div>
+  </div>
+
+  <footer>
+     Sonora Data, LLC &copy; <script>  document.write(new Date().getFullYear());</script>
+  </footer>
 </body>
+
+<script>
+  $("#learn-more").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#features").offset().top},
+          'slow');
+  });
+</script>
 </html>
